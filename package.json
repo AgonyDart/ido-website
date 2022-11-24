@@ -19,5 +19,8 @@
   "homepage": "https://github.com/AgonyDart/ido-website#readme",
   "dependencies": {
     "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
