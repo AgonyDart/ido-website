@@ -33,15 +33,14 @@
         </div>
     </header>
     <main>
-        <div class="container col-xxl-8 px-4 py-5">
+        <div class="container col-xxl-8 px-4 py-5" id="home-hero">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="./assets/meduele.png" class="d-block mx-lg-auto img-fluid" alt="Meeting.png" width="700"
-                        height="500" loading="lazy">
+                    <img src="./assets/img/meduele.png" class="d-block mx-lg-auto img-fluid" alt="Meeting.png"
+                        width="700" height="500" loading="lazy">
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold lh-1 mb-3">Investigación de
-                        Operaciones</h1>
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Investigación de Operaciones</h1>
                     <p class="lead">La investigación de operaciones también conocida como teoría de la toma de
                         decisiones, es una rama de la ingeniería industrial. También tiene relación con la ingeniería en
                         sistemas y la investigación en todas sus ramas. Consiste en el uso de modelos matemáticos,
@@ -49,24 +48,30 @@
                 </div>
             </div>
         </div>
-        <section class="d-flex flex-column flex-md-row justify-content-lg-around py-5">
+        <section class="d-flex flex-column flex-md-row justify-content-lg-around py-5" id="home-sections">
             <article class="article">
-                <img src="./assets/qFnclke.jpg" class="custom-img d-block mr-lg-auto img-fluid" alt="cover" width="100%"
-                    height="92" loading="lazy">
+                <img src="./assets/img/qFnclke.jpg" class="custom-img d-block mr-lg-auto img-fluid" alt="cover"
+                    width="100%" height="92" loading="lazy">
                 <h2 class="h2 pt-3">Análisis de redes</h2>
-                <p class=lead>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt porta lectus,
-                    blandit facilisis dolor imperdiet eget. Duis vel condimentum massa.</p>
+                <p class=lead>Una red es la representación gráfica de una serie de eventos y actividades que
+                    suceden en un trabajo que se programa para lograr un objetivo determinado.</p>
                 <a href="#network" class="text-decoration-none fw-normal">Ver más →</a>
             </article>
             <article class="article">
-                <img src="./assets/kaleidico-3V8xo5Gbusk-unsplash.jpg" class="custom-img d-block mr-lg-auto img-fluid"
-                    alt="cover" width="100%" height="92" loading="lazy">
+                <img src="./assets/img/kaleidico-3V8xo5Gbusk-unsplash.jpg"
+                    class="custom-img d-block mr-lg-auto img-fluid" alt="cover" width="100%" height="92" loading="lazy">
                 <h2 class="h2 pt-3">Programación no lineal</h2>
                 <p class=lead>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt porta lectus,
                     blandit facilisis dolor imperdiet eget. Duis vel condimentum massa.</p>
                 <a href="#programm" class="text-decoration-none fw-normal">Ver más →</a>
             </article>
         </section>
+        <div class="container d-flex flex-column" id="networking">
+            <h2 class="display-5 fw-bold d-flex justify-content-center py-5">Análisis de redes</h2>
+            <iframe src="./assets/Análisis de Redes-1.pdf" width="100%"
+                    height="1000px">
+            </iframe>
+        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark">
         <div class="container py-2">
@@ -81,6 +86,8 @@
         </div>
     </footer>
     <!-- Boostrap JS-->
+    <script src="./assets/nodes.js"></script>
+    <script src="./assets/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
