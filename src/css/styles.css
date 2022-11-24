@@ -1,0 +1,26 @@
+.custom-img {
+    max-height: 260px;
+    object-fit: Cover;
+    width: 100%;
+}
+
+.container {
+    max-width: unset;
+}
+
+.fa-github {
+    color:white;
+}
+
+.fa-linkedin {
+    color:white;
+}
+
+.article {
+    max-width: 720px;
+    padding: 32px 48px;
+}
+
+.hide {
+    display: none;
+}
