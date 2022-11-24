@@ -10,6 +10,8 @@ function navigator() {
         contactPage();
     } else if (location.hash.startsWith('#home')){
         homePage();
+    } else {
+        location.hash = '#home';
     }
 
     // reboot scrolling every page change
