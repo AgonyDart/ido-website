@@ -4,6 +4,10 @@
     width: 100%;
 }
 
+.custom-img-mobile {
+    object-fit: contain;
+}
+
 .container {
     max-width: unset;
 }
@@ -21,6 +25,20 @@
     padding: 32px 48px;
 }
 
+.custom-user-photo {
+    background-image: url("http://cdn.onlinewebfonts.com/svg/img_312847.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+}
+
+.custom-text {
+    text-decoration: none;
+}
+
+/* Single Page App Utils */
 .hide {
     display: none !important;
 }
