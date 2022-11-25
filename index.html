@@ -25,14 +25,25 @@
 
                 <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="#home" class="nav-link px-2 text-dark fw-semibold">Inicio</a></li>
+                    <li><a href="#glosario" class="nav-link px-2 text-dark fw-semibold">Glosario</a></li>
                     <li><a href="#network" class="nav-link px-2 text-dark fw-semibold">Análisis de redes</a></li>
                     <li><a href="#programm" class="nav-link px-2 text-dark fw-semibold">Programación no lineal</a></li>
-                    <li><a href="#contact" class="nav-link px-2 text-dark fw-semibold">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </header>
     <main>
+        <div id="home-welcome" class="px-4 py-5 mt-5 text-center">
+            <h1 class="display-5 fw-bold">Bienvenido al Blog</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">[5:55 p. m., 24/11/2022] 该死的混蛋: Wenas tardes
+                    [5:55 p. m., 24/11/2022] 该死的混蛋: Aquí ta mi blog
+                    [5:55 p. m., 24/11/2022] 该死的混蛋: Bueno ya enserio
+                    [5:55 p. m., 24/11/2022] 该死的混蛋: Ps el título del tema y una imagen chida y que diga algo así como
+                    vamos a explorar
+                    [5:55 p. m., 24/11/2022] 该死的混蛋: O no c</p>
+            </div>
+        </div>
         <div class="container col-xxl-8 px-4 py-5" id="home-hero">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
@@ -66,11 +77,73 @@
                 <a href="#programm" class="text-decoration-none fw-normal">Ver más →</a>
             </article>
         </section>
+        <div id="home-members" class="d-flex flex-column align-items-center">
+            <h2>Blog hecho con amor por:</h2>
+            <div class="row g-4 py-5 px-5 row-cols-1 row-cols-lg-4 mx-auto">
+                <div class="feature col d-flex flex-column align-items-center">
+                    <div class="custom-user-photo mb-3"></div>
+                    <h3 class="fs-2">Tinoco Duarte Angel David</h3>
+                </div>
+                <div class="feature col d-flex flex-column align-items-center">
+                    <div class="custom-user-photo mb-3"></div>
+                    <h3 class="fs-2">Bocanegra Villaseñor Diana Valeria</h3>
+                </div>
+                <div class="feature col d-flex flex-column align-items-center">
+                    <div class="custom-user-photo mb-3"></div>
+                    <h3 class="fs-2">Huerta Magaña Jasiel</h3>
+                </div>
+                <div class="feature col d-flex flex-column align-items-center">
+                    <div class="custom-user-photo mb-3"></div>
+                    <h3 class="fs-2">Gasca Contreras Carlos</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex flex-column" id="glosario">
+            <h2 class="display-5 fw-bold d-flex justify-content-center py-5">Glosario</h2>
+            <article class="container d-flex flex-column flex-lg-row mt-5">
+                <div class="container d-flex flex-column">
+                    <h3>Nodo</h3>
+                    <p>Un nodo o vértice es un evento o suceso se representaba en la red con un círculo, Los nodos
+                        también pueden
+                        indicar puntos geográficos o estaciones en algunos casos.</p>
+                </div>
+                <img src="https://orbograph.com/wp-content/uploads/2020/08/OrbNet-AI-Nodes-scaled.jpg" height="250px"
+                    class="custom-img-mobile" alt="Nodo image">
+            </article>
+            <article class="container d-flex flex-column flex-lg-row mt-5">
+                <div class="container d-flex flex-column">
+                    <h3>Rama</h3>
+                    <p>O también conocidos como arcos, aristas, ligaduras son aquellas conexiones entre nodos que
+                        representan de manera símbolica un flujo. Es frecuente que la notación de estas ramas se forme
+                        por las letras y/o números de
+                        los nodos a los cuales conectan. En el caso de las ramas dirigidas, primero se coloca
+                        la letra o número del nodo a partir del cual proviene la rama y al final aquel hacia el
+                        que se dirige la rama.</p>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Frucht_graph.neato.svg/800px-Frucht_graph.neato.svg.png"
+                    height="250px" class="custom-img-mobile" alt="Nodo image">
+            </article>
+            <article class="container d-flex flex-column flex-lg-row mt-5">
+                <div class="container d-flex flex-column">
+                    <h3>Red</h3>
+                    <p>Una red es la representación gráfica de una serie de eventos y actividades que
+                        suceden en un trabajo que se programa para lograr un objetivo determinado. Una red dirigida es
+                        aquella que tiene sólo ramas dirigidas; si las ramas son no
+                        dirigidas, la red es no dirigida. Si la red tiene ambos tipos de ramas no dirigidas se
+                        convierten en ramas dirigidas en direcciones opuestas.</p>
+                </div>
+                <img src="https://stickybitshell.files.wordpress.com/2016/05/mi_grafo.png" height="250px"
+                    class="custom-img-mobile" alt="Nodo image">
+            </article>
+        </div>
         <div class="container d-flex flex-column" id="networking">
             <h2 class="display-5 fw-bold d-flex justify-content-center py-5">Análisis de redes</h2>
-            <embed src="./assets/pdf/Análisis de Redes-1.pdf" width="100%"
-                    height="1000px">
-            </embed>
+                <object id="pdf" data="./assets/pdf/Análisis de Redes-1.pdf" width="100%" height="1000px">
+                    <div class="container d-flex flex-column align-items-center">
+                        <p>Oops! Tu navegador no soporta ver PDFs!</p>
+                        <button class="btn btn-primary"><a href="./assets/pdf/Análisis de Redes-1.pdf" class="text-white custom-text">Descargalo</a></button>
+                    </div>
+                </object>
         </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark">

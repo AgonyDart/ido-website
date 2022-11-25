@@ -6,8 +6,8 @@ function navigator() {
         networkPage();
     } else if (location.hash.startsWith('#programm')) {
         programmPage();
-    } else if (location.hash.startsWith('#contact')) {
-        contactPage();
+    } else if (location.hash.startsWith('#glosario')) {
+        glosarioPage();
     } else if (location.hash.startsWith('#home')){
         homePage();
     } else {
@@ -21,6 +21,7 @@ function navigator() {
 // nav fn
 function networkPage() {
     hideHomePage();
+    hideGlosarioPage();
     // remove classes
     networkSection.classList.remove('hide');
 }
@@ -28,37 +29,40 @@ function networkPage() {
 function programmPage() {
     hideHomePage();
     hideNetworkPage();
+    hideGlosarioPage();
+
 }
 
-function contactPage() {
+function glosarioPage() {
     hideHomePage();
     hideNetworkPage();
-
+    // remove classes
+    glosarioSection.classList.remove('hide');
 }
 
 function homePage() {
     hideNetworkPage();
+    hideGlosarioPage();
+
     // remove classes
+    homeWelcome.classList.remove('hide');
     homeHero.classList.remove('hide');
-    homeSections.classList.remove('hide')
+    homeSections.classList.remove('hide');
+    homeMembers.classList.remove('hide');
 }
 
 // Hide functions
 function hideHomePage() {
+    homeWelcome.classList.add('hide');
     homeHero.classList.add('hide');
     homeSections.classList.add('hide');
+    homeMembers.classList.add('hide');
 }
 
 function hideNetworkPage() {
     networkSection.classList.add('hide');
 }
 
-function hideHomePage() {
-    homeHero.classList.add('hide');
-    homeSections.classList.add('hide');
-}
-
-function hideHomePage() {
-    homeHero.classList.add('hide');
-    homeSections.classList.add('hide');
+function hideGlosarioPage() {
+    glosarioSection.classList.add('hide');
 }
