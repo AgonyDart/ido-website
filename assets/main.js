@@ -4,8 +4,8 @@ window.addEventListener('hashchange', navigator, false);
 function navigator() {
     if (location.hash.startsWith('#network')) {
         networkPage();
-    } else if (location.hash.startsWith('#programm')) {
-        programmPage();
+    } else if (location.hash.startsWith('#program')) {
+        programPage();
     } else if (location.hash.startsWith('#glosario')) {
         glosarioPage();
     } else if (location.hash.startsWith('#home')){
@@ -22,20 +22,23 @@ function navigator() {
 function networkPage() {
     hideHomePage();
     hideGlosarioPage();
+    hideProgramPage();
     // remove classes
     networkSection.classList.remove('hide');
 }
 
-function programmPage() {
+function programPage() {
     hideHomePage();
     hideNetworkPage();
     hideGlosarioPage();
-
+    // remove classes
+    programSection.classList.remove('hide');
 }
 
 function glosarioPage() {
     hideHomePage();
     hideNetworkPage();
+    hideProgramPage();
     // remove classes
     glosarioSection.classList.remove('hide');
 }
@@ -43,6 +46,7 @@ function glosarioPage() {
 function homePage() {
     hideNetworkPage();
     hideGlosarioPage();
+    hideProgramPage();
 
     // remove classes
     homeWelcome.classList.remove('hide');
@@ -65,4 +69,8 @@ function hideNetworkPage() {
 
 function hideGlosarioPage() {
     glosarioSection.classList.add('hide');
+}
+
+function hideProgramPage() {
+    programSection.classList.add('hide');
 }

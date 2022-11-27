@@ -10,3 +10,5 @@ const glosarioSection  = $('glosario');
 
 const networkSection  = $('networking');
 const pdfNode = $('pdf');
+
+const programSection  = $('program');
