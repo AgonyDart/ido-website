@@ -30,8 +30,35 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    border-radius: 50%;
     height: 40px;
     width: 40px;
+}
+
+.custom-img-profesor {
+    background-image: url("https://media-exp1.licdn.com/dms/image/C4D03AQGbVKQsDJVXhg/profile-displayphoto-shrink_800_800/0/1626200111618?e=1675296000&v=beta&t=NnKjDI-zOl0k0QIjWbxDXlbSu4DDEH0JSWfcwpYq9ro");
+    height: 160px;
+    width: 160px;
+}
+
+.custom-img-1 {
+    /* Yo */
+    background-image: url("https://i.imgur.com/3fTQRBC.png");
+}
+
+.custom-img-2 {
+    /* Val */
+    background-image: url("https://i.imgur.com/RGyWr3K.png");
+}
+
+.custom-img-3 {
+    /* Jasiel */
+    background-image: url("https://i.imgur.com/xFngQPo.png");
+}
+
+.custom-img-4 {
+    /* Gasca */
+    background-image: url("https://i.imgur.com/b5w8mY3.png");
 }
 
 .custom-text {
